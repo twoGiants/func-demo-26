@@ -20,7 +20,9 @@ func Handle(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	
 	fmt.Println("Received request")
 	fmt.Printf("%q\n", dump)
+	fmt.Println("Hello World!")
 	fmt.Fprintf(w, "%q", dump)
 }
