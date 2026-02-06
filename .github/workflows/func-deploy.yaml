@@ -24,6 +24,6 @@ jobs:
         uses: functions-dev/action@main
         with:
           name: func
-          version: latest
+          version: nightly
       - name: Deploy function
         run: func deploy --registry=${{ vars.REGISTRY_LOGIN_URL }}/${{ vars.REGISTRY_USERNAME }} -v
