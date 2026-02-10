@@ -1,0 +1,14 @@
+# $schema: https://raw.githubusercontent.com/knative/func/release-1.21/schema/func_yaml-schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/knative/func/release-1.21/schema/func_yaml-schema.json
+specVersion: 0.36.0
+name: func-demo-26
+runtime: go
+registry: docker.io/sjakusch
+namespace: demo
+created: 2026-02-10T15:05:54.21087073+01:00
+build:
+  builder: pack
+deploy:
+  namespace: demo
+  image: index.docker.io/sjakusch/func-demo-26@sha256:9bbfa604aac68adad2a2d9e4cc67c7d959e2dfbf2a5357f633e0df14e21eb080
+  deployer: keda
