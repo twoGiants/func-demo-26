@@ -9,7 +9,7 @@ import (
 // Handle an HTTP Request.
 func Handle(w http.ResponseWriter, r *http.Request) {
 	/*
-	 * YOUR CODE HERE
+	 * YOUR CODE HERE: Hello World
 	 *
 	 * Try running `go test`.  Add more test as you code in `handle_test.go`.
 	 */
