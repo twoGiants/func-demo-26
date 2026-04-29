@@ -9,9 +9,7 @@ import (
 // Handle an HTTP Request.
 func Handle(w http.ResponseWriter, r *http.Request) {
 	/*
-	 * YOUR CODE HERE: Hello World!!!!!!! Really? Does it work? Yes?
-	 * So? Did it work or what? Another try! And now the error! Or is there no error anymore?
-	 * So? NNow? Does it work? One more tmie and onece more! test test ttttt
+	 * YOUR CODE HERE: Hello World!!!!!!! 
 	 *
 	 * Try running `go test`.  Add more test as you code in `handle_test.go`.
 	 */
